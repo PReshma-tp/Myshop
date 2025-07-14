@@ -49,3 +49,6 @@ pytest_cache/
 .dmypy.json
 .pyre/
 .pytype/
+
+*.dump
+erl_crash.dump
