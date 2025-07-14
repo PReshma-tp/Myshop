@@ -52,3 +52,7 @@ pytest_cache/
 
 *.dump
 erl_crash.dump
+
+/staticfiles/
+/static/
+/media/
