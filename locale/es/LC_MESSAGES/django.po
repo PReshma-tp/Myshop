@@ -9,15 +9,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-15 17:50+0530\n"
-"PO-Revision-Date: 2025-07-15 17:09+0530\n"
+"PO-Revision-Date: 2025-07-15 18:13+0530\n"
 "Last-Translator:   <reshma@testpress.in>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Translated-Using: django-rosetta 0.10.2\n"
 
 #: .\cart\forms.py:10
@@ -82,8 +81,8 @@ msgstr "Tu carrito"
 #, python-format
 msgid "%(items)s item, $%(total)s "
 msgid_plural " %(items)s items, $%(total)s "
-msgstr[0] " %(items)s producto, $%(total)s"
-msgstr[1] " %(items)s productos, $%(total)s"
+msgstr[0] "%(items)s producto, $%(total)s"
+msgstr[1] "%(items)s productos, $%(total)s"
 msgstr[2] ""
 
 #: .\shop\templates\shop\base.html:23
