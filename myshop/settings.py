@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'coupon.apps.CouponConfig',
     'rosetta',
     'parler',
+    'localflavor',
     ]
 
 MIDDLEWARE = [
@@ -128,14 +129,15 @@ LOCALE_PATHS = (
 
 PARLER_LANGUAGES = {
     None: (
-        {'code': 'en'},
-        {'code': 'es'},
+        {'code': 'en', 'fallbacks': ['en'], 'hide_untranslated': False},
+        {'code': 'es', 'fallbacks': ['en'], 'hide_untranslated': False},
     ),
     'default': {
-        'fallback': 'en',
+        'fallbacks': ['en'],
         'hide_untranslated': False,
     }
- }
+}
+
 
 TIME_ZONE = 'Asia/Kolkata'
 
