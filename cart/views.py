@@ -37,4 +37,7 @@ def cart_detail(request):
     return render(request, 'cart/detail.html', {'cart': cart,
                                                 'coupon_apply_form': coupon_apply_form,
                                                 })
- 
+def clear_cart(request):
+    request.session['cart'] = {}
+    request.session.modified = True
+    return redirect('cart:cart_detail')

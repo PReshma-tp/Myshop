@@ -56,3 +56,5 @@ erl_crash.dump
 /staticfiles/
 /static/
 /media/
+
+**/locale/**/*.mo
